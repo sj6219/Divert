@@ -1,0 +1,5 @@
+.reload /f WinDivert64.sys
+lm m W*
+x WinDivert64!windivert_caller*
+bm WinDivert64!windivert_caller_context
+

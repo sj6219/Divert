@@ -1,1 +1,6 @@
 install/
+.vs/
+x64/
+sys/windivert_log.h
+sys/windivert_log.rc
+sys/windivert_log_MSG00001.bin
