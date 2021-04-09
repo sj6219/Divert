@@ -1,4 +1,13 @@
-install/
+install/MSVC/amd64/*
+install/MSVC/i386/*
+install/MSVC/arm64/*
+!install/MSVC/amd64/WinDivert.dll
+!install/MSVC/amd64/WinDivert.lib
+!install/MSVC/amd64/WinDivert64.sys
+!install/MSVC/i386/WinDivert.dll
+!install/MSVC/i386/WinDivert.lib
+!install/MSVC/i386/WinDivert32.sys
+
 .vs/
 x64/
 sys/windivert_log.h

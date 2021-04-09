@@ -11,4 +11,7 @@
     <RemoteDebuggerServerName>$(Remote)</RemoteDebuggerServerName>
     <RemoteDebuggerConnection>RemoteWithoutAuthentication</RemoteDebuggerConnection>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+  </PropertyGroup>
 </Project>

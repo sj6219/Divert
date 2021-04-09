@@ -3,3 +3,11 @@ lm m W*
 x WinDivert64!windivert_caller*
 bm WinDivert64!windivert_caller_context
 
+bm WinDivert64!DriverEntry
+
+C:\Program Files (x86)\Windows Kits\10\Debuggers\x64
+
+https://docs.microsoft.com/en-us/windows-hardware/drivers/download-the-wdk
+https://www.howtogeek.com/167723/how-to-disable-driver-signature-verification-on-64-bit-windows-8.1-so-that-you-can-install-unsigned-drivers/
+https://support.microsoft.com/en-us/windows/finding-your-bitlocker-recovery-key-in-windows-10-6b71ad27-0b89-ea08-f143-056f5ab347d6
+
